@@ -1,0 +1,104 @@
+body {
+    background: url(./img/bg_map.jpg) 100% 100% no-repeat;
+}
+
+.container {
+    width: 820px;
+    margin: 40px auto;
+}
+
+.header {
+    height: 40px;
+    width: 780px;
+    background: rgba(255, 255, 255, 0.4);
+    margin-left: 40px;
+    position: relative;
+}
+
+.sanjiaoxing {
+    position: absolute;
+    left: -40px;
+    top: 0px;
+    height: 0px;
+    width: 0px;
+    border: 20px solid;
+    border-color: transparent rgba(255, 255, 255, 0.4) rgba(255, 255, 255, 0.4) transparent;
+}
+
+.section {
+    width: 820px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.section-top {
+    font-size: 22px;
+    height: 30px;
+    color: #2e2e2e;
+    border-bottom: solid 1px black;
+    margin-left: 56px;
+    position: relative;
+    width: 720px
+}
+
+.icon-left {
+    background: url(./img/job_title.png);
+    width: 22px;
+    height: 29px;
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+
+.section-bottom {
+    width: 660px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 56px;
+    margin-top: 20px;
+    padding: 25px 30px;
+    background: #fff;
+}
+
+.section-title {
+    color: #33a0cb;
+    font-size: 22px;
+}
+
+.section-content {
+    margin-top: 20px;
+}
+
+.section-content:first-child {
+    margin-top: 10px;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ol.section-detail {
+    list-style-type: decimal;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 18px;
+    line-height: 24px;
+}
+
+.footer {
+    position: relative;
+    height: 40px;
+    width: 780px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.sanjiaoxing2 {
+    position: absolute;
+    right: -40px;
+    top: 0px;
+    height: 0px;
+    width: 0px;
+    border: 20px solid;
+    border-color: rgba(255, 255, 255, 0.4) transparent transparent rgba(255, 255, 255, 0.4);
+}
